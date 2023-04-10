@@ -1,14 +1,48 @@
 {
   "name": "slidev-talks",
-  "private": true,
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "slidev-penguin"
+  ],
+  "license": "MIT",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "shiki",
+    "default": {
+      "aspectRatio": "16/9",
+      "fonts": {
+        "sans": "Nunito",
+        "title": "Gilroy",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
-    "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "build": "slidev build",
+    "export": "slidev export",
+    "semantic-release": "semantic-release",
+    "screenshot": "slidev export --format png"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.9",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@alvarosabu/ui": "^2.17.0",
+    "@slidev/types": "^0.36.7",
+    "prism-theme-vars": "^0.2.4",
+    "vite-svg-loader": "^3.6.0"
+  },
+  "devDependencies": {
+    "@iconify-json/la": "^1.1.4",
+    "@iconify-json/logos": "^1.1.17",
+    "@iconify-json/simple-icons": "^1.1.31",
+    "@slidev/cli": "0.36.7",
+    "playwright-chromium": "^1.27.1",
+    "sass": "^1.55.0",
+    "semantic-release": "^19.0.5"
   }
 }
