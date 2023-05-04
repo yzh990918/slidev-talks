@@ -621,131 +621,42 @@ export default defineConfig({
 layout: default
 ---
 
-# Navigation
+# Awesome UnoCSS
 
-Hover on the bottom-left corner to see the navigation's controls panel
+**🏖️ Community presets**
 
-### Keyboard Shortcuts
+- [Community presets](https://unocss.dev/presets/community#community-presets): A collection of community-made presets for UnoCSS
 
-|                                                      |                             |
-| ---------------------------------------------------- | --------------------------- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide     |
-| <kbd>left</kbd>                                      | previous animation or slide |
-| <kbd>up</kbd>                                        | previous slide              |
-| <kbd>down</kbd>                                      | next slide                  |
+**🌈 Community frameworks**
 
----
-layout: new-section
----
+- [Community frameworks](https://unocss.dev/presets/community#community-frameworks): A collection of community-made UI frameworks for UnoCSS
 
-# New wild section appeared
+**🏝️ Awesome Projects**
 
-![penguin-work](https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif)
+- [ChatGPT-demo](https://github.com/anse-app/chatgpt-demo): Minimal UI for ChatGPT, Powered by unocss + solid + astro + ssr + openAI
+- [Anse-app](https://github.com/anse-app/anse): Supercharged experience for ChatGPT, Powered by unocss + solid + astro + ssr + openAI
+- [UnoCSS Animates](https://github.com/zyyv/unocss-animates): Preview all animations in UnoCSS.
 
----
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvarosabu'
-twitterUrl: 'https://twitter.com/alvarosabu'
----
 
-# Code
+<div class="absolute right-1 bottom-5">
 
-Use code snippets and get the highlighting directly!
-
-```ts
-// main.ts
-
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
-
-const VueDynamicForms = createDynamicForms({
-  // Global Options go here
-});
-
-export const app = createApp(App);
-
-app.use(VueDynamicForms);
-```
-
---- 
-layout: two-cols
---- 
-Awiwiiw
-
-```ts
-// main.ts
-
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
-
-const VueDynamicForms = createDynamicForms({
-  // Global Options go here
-});
-
-export const app = createApp(App);
-
-app.use(VueDynamicForms);
-```
-
-::right::
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
-
-```
-
----
-layout: text-window
----
-
-# Consoles
-
-Use code snippets and get the highlighting directly into a nice looking window!
-
-::window::
-
-```ts
-// main.ts
-
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
-
-const VueDynamicForms = createDynamicForms({
-  // Global Options go here
-});
-
-export const app = createApp(App);
-
-app.use(VueDynamicForms);
-```
----
-layout: text-window
-reverse: true
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvarosabu'
-twitterUrl: 'https://twitter.com/alvarosabu'
----
-
-# Embedded stuff
-
-Use window to show a live demo of any page, or even a sub component!
-
-::window::
-
-<div class="overflow-hidden relative w-full aspect-16-9">
-<iframe height="300" style="width: 100%;" scrolling="no" title="Text Clock" src="https://codepen.io/searleb/embed/pvQaJB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/searleb/pen/pvQaJB">
-  Text Clock</a> by Bill Searle (<a href="https://codepen.io/searleb">@searleb</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+ Learn more about [UnoCSS Document](https://unocss.dev/)
 </div>
+
 ---
-class: 'grid text-center align-self-center justify-self-center'
+class: grid text-center align-self-center justify-self-center
 ---
 
-# Gracias totales
+# Speak freely
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+聊聊最近学的新的技术或者看过的最新的技术等等
+
+<!--
+
+- Vercel storage/solid-js/ https://mp.weixin.qq.com/s/UDv4loT8iaTgkeFjeq-T-w
+- RSC - a collection of online databases 
+- RSPack
+- https://github.com/tauri-apps/tauri
+
+https://github.com/yzh990918?tab=stars
+-->
