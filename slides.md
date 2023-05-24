@@ -38,9 +38,9 @@ presenterImage: https://avatars.githubusercontent.com/u/46418596?s=400&u=91acc43
 
 <div class="leading-8 opacity-80">
 
-- Core team member of [OnuUI](https://github.com/onu-ui/onu-ui), [chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo).<br>
+- Core team member of  [Anse](https://github.com/anse-app), [OnuUI](https://github.com/onu-ui/onu-ui),.<br>
 - Creator of [magic-cli](https://github.com/vbs-plus/magic-cli), [za-zi](https://github.com/vbs-plus/zi), [json-tsc](https://github.com/vbs-plus/json-tsc).<br>
-- Contributor of [UnoCSS](https://github.com/unocss/unocss), [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2), [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin), [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) and more.
+- Contributor of [UnoCSS](https://github.com/unocss/unocss), [Vitest](https://github.com/unocss/unocss), [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2), [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) and more.
 </div>
 
 
@@ -57,6 +57,26 @@ presenterImage: https://avatars.githubusercontent.com/u/46418596?s=400&u=91acc43
 layout: default
 ---
 
+# Contents Toc of this shared  
+
+你可以提前学习或了解 [Atomic CSS](https://css-tricks.com/lets-define-exactly-atomic-css/), [UnoCSS](https://unocss.dev), [OnuUI](https://onu.zyob.top)
+
+1. <Link to="4">What is Atomic CSS</Link>
+2. <Link to="5">Why Atomic CSS</Link>
+3. <Link to="6">How to use Atomic CSS</Link>
+4. <Link to="7">What is UnoCSS</Link>
+5. <Link to="8">Why UnoCSS</Link>
+6. <Link to="11">How to use UnoCSS</Link>
+7. <Link to="12">What is OnuUI</Link>
+8. <Link to="15">How to use OnuUI</Link>
+9. <Link to="9">Morden CSS FrameWork Usage rate</Link>
+10. <Link to="13">How to Start a UI Design System</Link>
+
+
+---
+layout: default
+---
+
 # What is Atomic CSS
 
 Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function.
@@ -66,7 +86,7 @@ Atomic CSS is the approach to CSS architecture that favors small, single-purpose
 <br/>
 
 <div class="grid grid-cols-3 gap-8 pt-4 -mb-6"  
- v-if="$slidev.nav.currentPage === 3"
+ v-if="$slidev.nav.currentPage === 4"
   v-motion
   :initial="{ x: 80 }"
   :enter="{ x: 0 }">
@@ -134,7 +154,7 @@ layout: default
 
 <v-click>
 
-Read more about [Why Atom CSS?](https://css-tricks.com/lets-define-exactly-atomic-css/)
+Read more about [Why Atomic CSS?](https://css-tricks.com/lets-define-exactly-atomic-css/)
 </v-click>
 
 
@@ -142,7 +162,7 @@ Read more about [Why Atom CSS?](https://css-tricks.com/lets-define-exactly-atomi
 layout: default
 ---
 
-# How to use Atom CSS
+# How to use Atomic CSS
 
 ![](http://ecargo.zhongan.com/ecargo/downLoadExcel.do?key=kiss/claim/files/20230427/sniperbNWWUID2YJwOg21zbvNoT1qXDg/1682582989850-atom.gif)
 
@@ -198,7 +218,7 @@ layout: default
 # Why UnoCSS?
 
 <div
-  v-if="$slidev.nav.currentPage === 7"
+  v-if="$slidev.nav.currentPage === 8"
   v-motion
   :initial="{ x: -80 }"
   :enter="{ x: 0 }">
@@ -636,12 +656,6 @@ layout: default
 - [ChatGPT-demo](https://github.com/anse-app/chatgpt-demo): Minimal UI for ChatGPT, Powered by unocss + solid + astro + ssr + openAI
 - [Anse-app](https://github.com/anse-app/anse): Supercharged experience for ChatGPT, Powered by unocss + solid + astro + ssr + openAI
 - [UnoCSS Animates](https://github.com/zyyv/unocss-animates): Preview all animations in UnoCSS.
-
-
-<div class="absolute right-1 bottom-5">
-
- Learn more about [UnoCSS Document](https://unocss.dev/)
-</div>
 
 ---
 class: grid text-center align-self-center justify-self-center
